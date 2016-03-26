@@ -7,3 +7,15 @@ Da mesma forma, o uso de boas práticas de orientação a objetos permite que o 
 Partindo desse contexto, a etapa da qualidade se torna extremamente relevante no processo de Integração Contínua, pois é através desta que poderemos entregar um software íntegro e confiável aos usuários.<br />
 
 Agora chega de teoria, vamos a pratica !
+
+> **Vamos provisionar um ambiente com as seguintes ferramentas:**
+
+> [Ansible](https://www.ansible.com/)<br />
+> [Amazon EC2 Container Service](https://aws.amazon.com/pt/ecs/)<br />
+> [Amazon RDS](https://aws.amazon.com/pt/rds/)<br />
+> [Jenkins](https://jenkins.io/index.html)<br />
+> [SonarQube](http://www.sonarqube.org/)<br />
+
+> **Como exemplo, vamos utilizar um projeto sample do Java com Gradle, partindo da integração do Jenkins até a disponibilização dos relatórios no Sonar.**
+
+> [SonarExamples](https://github.com/SonarSource/sonar-examples)
