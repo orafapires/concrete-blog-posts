@@ -41,7 +41,7 @@ done
 function runcontainers(){
 for c in "${CONTAINERS[@]}"; do
   if [ $c == $CONT_JENKINS_NAME ]; then
-    docker run --name $CONT_JENKINS_NAME -p 8080:8080 -p 50000:50000 $CONT_JENKINS_NAME
+    docker run -d --name $CONT_JENKINS_NAME -p 8080:8080 -p 50000:50000 $CONT_JENKINS_NAME
   elif [ $c == $CONT_SONAR_NAME ]; then
     docker run -d --name $CONT_SONAR_NAME -p 9000:9000 -p 9092:9092 $CONT_SONAR_NAME
   fi
