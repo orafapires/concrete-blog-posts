@@ -20,3 +20,38 @@ Agora chega de teoria, vamos à pratica !<br />
 
 Falando sobre o Sonar, o sistema avalia mais de 20 linguagens, baseando-se em métricas pré-configuradas ou personalizadas (criadas) para o seu projeto.
 Com essas métricas, a Integração Contínua pode ou não promover um artefato em um ambiente de desenvolvimento, testes ou produção.
+
+Vamos partir da idéia de que você já está com o Docker instalado... Primeiro, vamos executar o script abaixo para provisionar o nosso ambiente local:
+
+```
+#!/usr/bin/env bash
+
+PATH="$PATH"
+
+CONT_JENKINS_NAME="jenkins"
+CONT_SONAR_NAME="sonarqube"
+CONTAINERS=( "$CONT_JENKINS_NAME" "$CONT_SONAR_NAME" )
+
+function pullcontainers(){
+for c in "${CONTAINERS[@]}"; do
+  docker pull $c
+done
+}
+
+function runcontainers(){
+for c in "${CONTAINERS[@]}"; do
+  if [ $c == $CONT_JENKINS_NAME ]; then
+    docker run --name $CONT_JENKINS_NAME -p 8080:8080 -p 50000:50000 $CONT_JENKINS_NAME
+  elif [ $c == $CONT_SONAR_NAME ]; then
+    docker run -d --name $CONT_SONAR_NAME -p 9000:9000 -p 9092:9092 $CONT_SONAR_NAME
+  fi
+done
+}
+
+if `which docker > /dev/null`; then
+  pullcontainers
+  runcontainers
+else
+  echo "Docker não instalado"
+fi
+```
