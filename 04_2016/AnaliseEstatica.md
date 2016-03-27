@@ -81,4 +81,4 @@ fi
 ```
 
 Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.
-Uma boa prática é subi-lo já apontando para uma base escalável e que prove mais performance.
+Uma boa prática é subi-lo já apontando para uma base escalável e com mais performance.
