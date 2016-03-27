@@ -16,6 +16,7 @@ Agora chega de teoria, vamos à pratica !<br />
 
 > **Como exemplo, vamos utilizar um projeto sample do Sonar com Gradle, partindo da integração do Jenkins até a disponibilização dos relatórios no Sonar.**
 
+> [Android SDK](http://developer.android.com/intl/pt-br/sdk/index.html)<br />
 > [SonarExamples](https://github.com/SonarSource/sonar-examples)<br />
 
 Falando sobre o Sonar, o sistema avalia mais de 20 linguagens, baseando-se em métricas pré-configuradas ou personalizadas (criadas) para o seu projeto.
@@ -78,3 +79,6 @@ else
   echo "Docker não instalado"
 fi
 ```
+
+Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.
+Uma boa prática é subi-lo já apontando para uma base escalável e que prove mais performance.
