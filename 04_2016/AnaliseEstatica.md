@@ -79,5 +79,5 @@ else
 fi
 ```
 
-**Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.
-Uma boa prática é subi-lo já apontando para um SGBD gerenciável, como o MySQL ou o Postgres, por exemplo..**
+**Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.<br />
+Uma boa prática é subi-lo já apontando para um SGBD gerenciável, como o MySQL ou o Postgres, por exemplo.**

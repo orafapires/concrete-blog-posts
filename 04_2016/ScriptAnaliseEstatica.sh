@@ -8,8 +8,13 @@ CONTAINERS=( "$CONT_JENKINS_NAME" "$CONT_SONAR_NAME" )
 
 function clearcontainers(){
   for c in "${CONTAINERS[@]}"; do
-    docker kill $c
-    docker rm $c
+    ISRUNNING=$(docker ps | grep -o "$c")
+    if [ -n "$ISRUNNING" ]; then
+      docker kill $c
+      docker rm $c
+    else
+      echo "Container $c parado"
+    fi
   done
 }
 
@@ -32,11 +37,11 @@ function runcontainers(){
 function statuscontainers(){
   for c in "${CONTAINERS[@]}"; do
     STATUS=$(docker inspect --format="{{ .State.Running }}" $c)
-    NAME=$(docker inspect --format="{{ .Name }}" $c | cut -d'/' -f2)
+    NAMES=$(docker inspect --format="{{ .Name }}" $c | cut -d'/' -f2)
     if [ $STATUS == "true" ]; then
-      echo "Container $NAME rodando"
+      echo "Container $NAMES rodando"
     else
-      echo "Container $NAME parado"
+      echo "Container $NAMES parado"
       STATUS=$(docker inspect --format="{{ .State.Error }}" $c)
       echo "Erro:" $STATUS
     fi
