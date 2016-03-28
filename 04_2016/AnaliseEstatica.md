@@ -86,3 +86,5 @@ fi
 
 **Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.<br />
 Uma boa prática é subi-lo já apontando para um SGBD voltado para produção, como o MySQL ou o Postgres, por exemplo.**
+
+![Docker](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/docker.png)
