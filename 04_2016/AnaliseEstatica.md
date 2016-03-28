@@ -10,12 +10,11 @@ Agora chega de teoria, vamos à pratica !<br />
 
 > **Iremos provisionar um ambiente com as seguintes ferramentas:**
 
-<div style="text-align:center" markdown="1">
-> ![Docker](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/docker.png)
+> ![Docker](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/docker.png){: .center-image }
 <br />
-> ![Jenkins](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/jenkins.png)<br />
-> ![SonarQube](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/sonarqube.png)<br />
-</div>
+> ![Jenkins](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/jenkins.png){: .center-image }<br />
+> ![SonarQube](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/sonarqube.png){: .center-image }<br />
+
 > **Como exemplo, vamos utilizar um projeto sample do Sonar com Java, partindo da integração do Jenkins até a disponibilização dos relatórios no Sonar.**
 
 > [SonarExamples](https://github.com/SonarSource/sonar-examples)<br />
