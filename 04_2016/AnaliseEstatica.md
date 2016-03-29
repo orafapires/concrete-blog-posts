@@ -167,5 +167,5 @@ Partiu Sonar ?
 <br />
 <br />
 
-Em um próximo post, vamos abordar as métricas do sistema e adequar à realidade do seu projeto !
+Em um próximo post, vamos abordar as métricas do sistema e adequar à realidade do seu projeto !<br />
 Até a próxima.
