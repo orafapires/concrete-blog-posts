@@ -188,7 +188,7 @@ sonar.sourceEncoding=UTF-8
 Com esses passos realizados, poderemos executar o nosso build e visualizar os resultados no Sonar.<br />
 O Jenkins disponibiliza a URL de acesso aos relatórios no próprio Job, conforme figura abaixo:
 
-<img align="left" src="sonarlink.png">
+<img align="center" src="sonarlink.png">
 <br />
 <br />
 <br />
