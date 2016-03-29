@@ -23,7 +23,7 @@ Com essas métricas, a Integração Contínua pode ou não promover um artefato 
 
 Vamos partir da idéia de que você já está com o Docker instalado... Primeiro, vamos executar o script abaixo para provisionar o nosso ambiente local:
 
-```
+```shellscript
 #!/usr/bin/env bash
 
 PATH="$PATH"
