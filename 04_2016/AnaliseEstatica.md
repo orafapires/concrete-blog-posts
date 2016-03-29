@@ -109,7 +109,7 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 >  - SonarQube Runner
 >  - SonarQube
 
-**Preencher os dados conforme as figuras abaixo**
+**Preencher os dados conforme as figuras abaixo:**
 
 <img align="left" src="sonarrunner.png">
 <br />
@@ -117,6 +117,7 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 <img align="left" src="sonarexemplo.png">
 <br />
 <br />
+
 
 Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.<br />
 Vamos nomeá-lo de **"SonarExemplo"**<br />
