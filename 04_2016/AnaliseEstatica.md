@@ -106,7 +106,7 @@ Agora, vamos instalar os plugins necessários navegando até:
 Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 
 > - Gerenciar Jenkins
-> - SonarQube Runner
+>  - SonarQube Runner
 
 **Preencher os dados conforme figura abaixo**
 
@@ -114,7 +114,7 @@ Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 <br />
 <br />
 
-> - SonarQube
+>  - SonarQube
 
 **Preencher os dados conforme figura abaixo**
 
@@ -129,5 +129,21 @@ Em **Gerenciamento de código fonte**, insira o seguinte repositório:
 > https://github.com/SonarSource/sonar-examples.git
 
 A branch **master** deve ser mantida.
-
 No step de **Build**, selecione **Invoke Standalone SonarQube Analysis**
+Em **Analysis properties**, preencher com os seguintes dados:
+
+```Java
+# Required metadata
+sonar.projectKey=org.sonarqube:java-simple-sq-scanner
+sonar.projectName=Java :: Simple Project Not Compiled :: SonarQube Scanner
+sonar.projectVersion=1.0
+
+# Comma-separated paths to directories with sources (required)
+sonar.sources=$WORKSPACE/projects/languages/java/sonar-runner/java-sonar-runner-simple/src
+
+# Language
+sonar.language=java
+
+# Encoding of the source files
+sonar.sourceEncoding=UTF-8
+```
