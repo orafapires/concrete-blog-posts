@@ -107,14 +107,13 @@ Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 
 > - Gerenciar Jenkins
 >  - SonarQube Runner
+>  - SonarQube
 
 **Preencher os dados conforme figura abaixo**
 
 <img align="left" src="sonarrunner.png">
 <br />
 <br />
-
->  - SonarQube
 
 **Preencher os dados conforme figura abaixo**
 
