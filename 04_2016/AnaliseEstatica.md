@@ -10,8 +10,10 @@ Agora chega de teoria, vamos à pratica !<br />
 
 > **Iremos provisionar um ambiente com as seguintes ferramentas:**
 
-<center><img src="docker.png"></center>
-> ![Docker](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/docker.png)<br />
+<div style="text-align:center" markdown="1">
+![Docker](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/docker.png)
+</div>
+
 > ![Jenkins](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/jenkins.png)<br />
 > ![SonarQube](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/sonarqube.png)<br />
 
