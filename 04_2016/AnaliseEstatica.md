@@ -147,7 +147,7 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 <img align="left" src="sonarrunner.png">
 <br />
 <br />
-<img align="left" src="sonarexemplo.png">
+<img align="left" src="sonarexample.png">
 <br />
 <br />
 
