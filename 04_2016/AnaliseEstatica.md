@@ -94,5 +94,29 @@ fi
 **Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.<br />
 Uma boa prática é subi-lo já apontando para um SGBD voltado para produção, como o MySQL ou o Postgres, por exemplo.**<br />
 
-Vamos iniciar as configurações no Jenkins acessando a seguinte URL:<br />
-[http://localhost:8080](http://localhost:8080)
+Vamos iniciar as configurações no Jenkins acessando a seguinte URL:
+> [http://localhost:8080](http://localhost:8080)
+
+Agora, vamos instalar os plugins necessários navegando até:
+> - Gerenciar Jenkins
+>  - Gerenciador de Plugins
+>  - Clique na aba **Disponíveis**
+>  - Instale os seguintes plugins: **SonarQube Plugin** e **Git plugin**
+
+Antes de iniciarmos, é necessário configurar os plugins do Sonar:
+
+> - Gerenciar Jenkins
+> - Preencher conforme imagem abaixo
+
+<img align="left" src="sonarrunner.png">
+
+
+Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.
+Vamos nomeá-lo de **"SonarExemplo"**
+Em **Gerenciamento de código fonte**, insira o seguinte repositório:
+
+> https://github.com/SonarSource/sonar-examples.git
+
+A branch **master** deve ser mantida.
+
+No step de **Build**, selecione **Invoke Standalone SonarQube Analysis**
