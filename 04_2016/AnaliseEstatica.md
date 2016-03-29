@@ -112,9 +112,10 @@ Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 
 <img align="left" src="sonarrunner.png">
 <br />
+<br />
 
-Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.
-Vamos nomeá-lo de **"SonarExemplo"**
+Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.<br />
+Vamos nomeá-lo de **"SonarExemplo"**<br />
 Em **Gerenciamento de código fonte**, insira o seguinte repositório:
 
 > https://github.com/SonarSource/sonar-examples.git
