@@ -114,6 +114,14 @@ Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 <br />
 <br />
 
+> - SonarQube
+
+**Preencher os dados conforme figura abaixo**
+
+<img align="left" src="sonarexemplo.png">
+<br />
+<br />
+
 Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.<br />
 Vamos nomeá-lo de **"SonarExemplo"**<br />
 Em **Gerenciamento de código fonte**, insira o seguinte repositório:
