@@ -144,16 +144,16 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 
 **Preencher os dados conforme as figuras abaixo:**
 
-<img align="left" src="sonarrunner.png">
+<img align="left" src="sonarrunner.png"><br />
 <br />
 <br />
-<img align="left" src="sonarexample.png">
+<img align="left" src="sonarexample.png"><br />
 <br />
 <br />
 
 Os dados de acesso ao Sonar são os dados default do sistema:
 
-> Usuário: **admin**
+> Usuário: **admin**<br />
 > Senha: **admin**
 
 Com os plugins instalados e configurados, podemos criar o nosso Job de exemplo.<br />
