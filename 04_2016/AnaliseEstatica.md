@@ -128,8 +128,8 @@ Em **Gerenciamento de código fonte**, insira o seguinte repositório:
 
 > https://github.com/SonarSource/sonar-examples.git
 
-A branch **master** deve ser mantida.
-No step de **Build**, selecione **Invoke Standalone SonarQube Analysis**
+A branch **master** deve ser mantida.<br />
+No step de **Build**, selecione **Invoke Standalone SonarQube Analysis**<br />
 Em **Analysis properties**, preencher com os seguintes dados:
 
 ```Java
