@@ -9,7 +9,7 @@ Partindo desse contexto, a etapa da qualidade se torna extremamente relevante no
 Agora chega de teoria, vamos à pratica !<br />
 
 > **Iremos provisionar um ambiente com as seguintes ferramentas:**
-<br />
+
 <img align="left" src="docker.png">
 <img align="left" src="jenkins.png">
 <img align="left" src="sonarqube.png">
@@ -20,6 +20,7 @@ Agora chega de teoria, vamos à pratica !<br />
 <br />
 <br />
 <br />
+
 > **Como exemplo, vamos utilizar um projeto sample do Sonar com Java, partindo da integração do Jenkins até a disponibilização dos relatórios no Sonar.**
 
 > [SonarExamples](https://github.com/SonarSource/sonar-examples)<br />
