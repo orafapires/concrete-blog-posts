@@ -11,7 +11,7 @@ Agora chega de teoria, vamos à pratica !<br />
 > **Iremos provisionar um ambiente com as seguintes ferramentas:**
 
 <div style="text-align:center" markdown="1">
-![Docker](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/docker.png)
+![Docker](docker.png)
 </div>
 
 > ![Jenkins](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/jenkins.png)<br />
