@@ -159,6 +159,9 @@ O Jenkins disponibiliza a URL de acesso aos relatórios no próprio job, conform
 <br />
 <br />
 <br />
+<br />
+<br />
+<br />
 
 Vamos visualizar o sonar ?
 
