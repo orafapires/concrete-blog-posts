@@ -109,14 +109,11 @@ Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 >  - SonarQube Runner
 >  - SonarQube
 
-**Preencher os dados conforme figura abaixo**
+**Preencher os dados conforme as figuras abaixo**
 
 <img align="left" src="sonarrunner.png">
 <br />
 <br />
-
-**Preencher os dados conforme figura abaixo**
-
 <img align="left" src="sonarexemplo.png">
 <br />
 <br />
