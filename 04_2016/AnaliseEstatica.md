@@ -166,6 +166,8 @@ Partiu Sonar ?
 <img align="left" src="sonarresults.png">
 <br />
 <br />
+<br />
+<br />
 
 Em um próximo post, vamos abordar as métricas do sistema e adequar à realidade do seu projeto !<br />
 Até a próxima.
