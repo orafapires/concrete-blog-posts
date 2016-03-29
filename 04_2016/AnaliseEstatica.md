@@ -118,7 +118,7 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 <br />
 <br />
 
-Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.<br />
+Com os plugins instalados e configurados, podemos criar o nosso Job de exemplo.<br />
 Vamos nomeá-lo de **"SonarExemplo"**.<br />
 Em **Gerenciamento de código fonte**, insira o seguinte repositório:
 
@@ -145,7 +145,7 @@ sonar.sourceEncoding=UTF-8
 ```
 
 Com esses passos realizados, poderemos executar o nosso build e visualizar os resultados no Sonar.<br />
-O Jenkins disponibiliza a URL de acesso aos relatórios no próprio job, conforme figura abaixo:
+O Jenkins disponibiliza a URL de acesso aos relatórios no próprio Job, conforme figura abaixo:
 
 <img align="left" src="sonarlink.png">
 <br />
@@ -161,7 +161,7 @@ O Jenkins disponibiliza a URL de acesso aos relatórios no próprio job, conform
 <br />
 <br />
 
-Vamos visualizar o sonar ?
+Partiu Sonar ?
 
 <img align="left" src="sonarresults.png">
 <br />
