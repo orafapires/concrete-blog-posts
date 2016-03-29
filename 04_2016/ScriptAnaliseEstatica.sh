@@ -2,10 +2,11 @@
 
 PATH="$PATH"
 
-CONT_JENKINS_NAME="jenkins"
-CONT_SONAR_NAME="sonarqube"
 CONT_POSTGRES_NAME="postgres"
-CONTAINERS=( "$CONT_JENKINS_NAME" "$CONT_POSTGRES_NAME" "$CONT_SONAR_NAME" )
+CONT_SONAR_NAME="sonarqube"
+CONT_JENKINS_NAME="jenkins"
+
+CONTAINERS=( "$CONT_POSTGRES_NAME" "$CONT_SONAR_NAME" "$CONT_JENKINS_NAME" )
 
 function clearcontainers(){
   for c in "${CONTAINERS[@]}"; do
@@ -27,12 +28,7 @@ function pullcontainers(){
 
 function runcontainers(){
   for c in "${CONTAINERS[@]}"; do
-    if [ $c == $CONT_JENKINS_NAME ]; then
-      docker run -d --name $CONT_JENKINS_NAME \
-      -p 8080:8080 \
-      -p 50000:50000 \
-      $CONT_JENKINS_NAME
-    elif [ $c == $CONT_POSTGRES_NAME ]; then
+    if [ $c == $CONT_POSTGRES_NAME ]; then
       docker run -d --name $CONT_POSTGRES_NAME \
       -e POSTGRES_USER="sonar" \
       -e POSTGRES_PASSWORD="SonarExample" \
@@ -46,6 +42,11 @@ function runcontainers(){
       -e SONARQUBE_JDBC_PASSWORD="SonarExample" \
       -e SONARQUBE_JDBC_URL=jdbc:postgresql://$CONT_POSTGRES_NAME:5432/sonar \
       $CONT_SONAR_NAME
+    elif [ $c == $CONT_JENKINS_NAME ]; then
+      docker run -d --name $CONT_JENKINS_NAME \
+      -p 8080:8080 \
+      -p 50000:50000 \
+      $CONT_JENKINS_NAME
     fi
   done
 }
@@ -64,11 +65,25 @@ function statuscontainers(){
   done
 }
 
+function getinfofromcontainers(){
+  for c in "${CONTAINERS[@]}"; do
+    IP=$(docker inspect --format="{{ .NetworkSettings.IPAddress }}" $c)
+    if [ $c == $CONT_POSTGRES_NAME ]; then
+      echo "O $CONT_POSTGRES_NAME está com o IP: $IP"
+    elif [ $c == $CONT_SONAR_NAME ]; then
+      echo "O $CONT_SONAR_NAME está com o IP: $IP"
+    elif [ $c == $CONT_JENKINS_NAME ]; then
+      echo "O $CONT_JENKINS_NAME está com o IP: $IP"
+    fi
+    done
+  }
+
 if `which docker > /dev/null`; then
   clearcontainers
   pullcontainers
   runcontainers
   statuscontainers
+  getinfofromcontainers
 else
   echo "Docker não instalado"
 fi
