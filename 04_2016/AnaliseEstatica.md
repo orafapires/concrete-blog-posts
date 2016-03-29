@@ -10,7 +10,7 @@ Agora chega de teoria, vamos à pratica !<br />
 
 > **Iremos provisionar um ambiente com as seguintes ferramentas:**
 
-<h3 style="text-align: center;" markdown="1">This is a level 3 heading.</h3>
+->THIS TEXT IS IN THE CENTER!<-
 
 > ![Jenkins](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/jenkins.png)<br />
 > ![SonarQube](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/sonarqube.png)<br />
