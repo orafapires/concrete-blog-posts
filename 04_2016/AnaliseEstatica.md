@@ -89,3 +89,5 @@ Uma boa prática é subi-lo já apontando para um SGBD voltado para produção, 
 
 Vamos iniciar as configurações no Jenkins acessando a seguinte URL:<br />
 [http://localhost:8080](http://localhost:8080)
+
+<center>![SonarQube](https://github.com/orafapires/concrete-blog-posts/blob/master/04_2016/sonarqube.png)</center>
