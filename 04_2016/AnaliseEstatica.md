@@ -103,7 +103,7 @@ Agora, vamos instalar os plugins necessários navegando até:
 >  - Clique na aba **Disponíveis**
 >  - Instale os seguintes plugins: **SonarQube Plugin** e **Git plugin**
 
-Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
+Após as instalações, é necessário configurarmos os plugins do Sonar em:
 
 > - Gerenciar Jenkins
 >  - SonarQube Runner
