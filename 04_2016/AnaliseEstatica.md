@@ -10,9 +10,9 @@ Agora chega de teoria, vamos à pratica !<br />
 
 > **Iremos provisionar um ambiente com as seguintes ferramentas:**
 <br />
-<img align="left" src="docker.png">
-<img align="left" src="jenkins.png">
-<img align="left" src="sonarqube.png">
+> <img align="left" src="docker.png">
+> <img align="left" src="jenkins.png">
+> <img align="left" src="sonarqube.png">
 <br />
 <br />
 <br />
