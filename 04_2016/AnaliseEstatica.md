@@ -193,7 +193,8 @@ O Jenkins disponibiliza a URL de acesso aos relatórios no próprio Job, conform
 
 Partiu Sonar ?
 
-<img align="left" src="sonarresults.png">
+<img align="center" src="sonarresults.png">
+<br />
 
 Em um próximo post, vamos abordar as métricas do sistema e adequar à realidade do seu projeto !  
 Até a próxima.
