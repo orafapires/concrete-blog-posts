@@ -118,15 +118,14 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 <br />
 <br />
 
-
 Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.<br />
-Vamos nomeá-lo de **"SonarExemplo"**<br />
+Vamos nomeá-lo de **"SonarExemplo"**.<br />
 Em **Gerenciamento de código fonte**, insira o seguinte repositório:
 
 > https://github.com/SonarSource/sonar-examples.git
 
 A branch **master** deve ser mantida.<br />
-No step de **Build**, selecione **Invoke Standalone SonarQube Analysis**<br />
+No step de **Build**, selecione **Invoke Standalone SonarQube Analysis**.<br />
 Em **Analysis properties**, preencher com os seguintes dados:
 
 ```Java
@@ -144,3 +143,10 @@ sonar.language=java
 # Encoding of the source files
 sonar.sourceEncoding=UTF-8
 ```
+
+Com esses passos realizados, poderemos executar o nosso build e visualizar os resultados no Sonar.
+O Jenkins disponibiliza a URL de acesso aos relatórios no próprio job, conforme figura abaixo:
+
+<img align="left" src="sonarlink.png">
+<br />
+<br />
