@@ -35,9 +35,11 @@ Vamos partir da idéia de que você já está com o Docker instalado... Primeiro
 
 PATH="$PATH"
 
-CONT_JENKINS_NAME="jenkins"
+CONT_POSTGRES_NAME="postgres"
 CONT_SONAR_NAME="sonarqube"
-CONTAINERS=( "$CONT_JENKINS_NAME" "$CONT_SONAR_NAME" )
+CONT_JENKINS_NAME="jenkins"
+
+CONTAINERS=( "$CONT_POSTGRES_NAME" "$CONT_SONAR_NAME" "$CONT_JENKINS_NAME" )
 
 function clearcontainers(){
   for c in "${CONTAINERS[@]}"; do
@@ -59,10 +61,25 @@ function pullcontainers(){
 
 function runcontainers(){
   for c in "${CONTAINERS[@]}"; do
-    if [ $c == $CONT_JENKINS_NAME ]; then
-      docker run -d --name $CONT_JENKINS_NAME -p 8080:8080 -p 50000:50000 $CONT_JENKINS_NAME
+    if [ $c == $CONT_POSTGRES_NAME ]; then
+      docker run -d --name $CONT_POSTGRES_NAME \
+      -e POSTGRES_USER="sonar" \
+      -e POSTGRES_PASSWORD="SonarExample" \
+      $CONT_POSTGRES_NAME
     elif [ $c == $CONT_SONAR_NAME ]; then
-      docker run -d --name $CONT_SONAR_NAME -p 9000:9000 -p 9092:9092 $CONT_SONAR_NAME
+      docker run -d --name $CONT_SONAR_NAME \
+      --link $CONT_POSTGRES_NAME:$CONT_POSTGRES_NAME \
+      -p 9000:9000 \
+      -p 9092:9092 \
+      -e SONARQUBE_JDBC_USERNAME="sonar" \
+      -e SONARQUBE_JDBC_PASSWORD="SonarExample" \
+      -e SONARQUBE_JDBC_URL=jdbc:postgresql://$CONT_POSTGRES_NAME:5432/sonar \
+      $CONT_SONAR_NAME
+    elif [ $c == $CONT_JENKINS_NAME ]; then
+      docker run -d --name $CONT_JENKINS_NAME \
+      -p 8080:8080 \
+      -p 50000:50000 \
+      $CONT_JENKINS_NAME
     fi
   done
 }
@@ -81,33 +98,50 @@ function statuscontainers(){
   done
 }
 
+function getinfofromcontainers(){
+  for c in "${CONTAINERS[@]}"; do
+    IP=$(docker inspect --format="{{ .NetworkSettings.IPAddress }}" $c)
+    if [ $c == $CONT_POSTGRES_NAME ]; then
+      echo "O $CONT_POSTGRES_NAME está com o IP: $IP"
+    elif [ $c == $CONT_SONAR_NAME ]; then
+      echo "O $CONT_SONAR_NAME está com o IP: $IP"
+    elif [ $c == $CONT_JENKINS_NAME ]; then
+      echo "O $CONT_JENKINS_NAME está com o IP: $IP"
+    fi
+    done
+  }
+
 if `which docker > /dev/null`; then
   clearcontainers
   pullcontainers
   runcontainers
   statuscontainers
+  getinfofromcontainers
 else
   echo "Docker não instalado"
 fi
 ```
 
-**Nesse post, nós vamos subir o Sonar em uma base interna não escalável, que pode não suportar os futuros upgrades do sistema, além de não ser possível realizar a migração dos dados para outra base de dados.<br />
-Uma boa prática é subi-lo já apontando para um SGBD voltado para produção, como o MySQL ou o Postgres, por exemplo.**<br />
+**Uma boa prática é subi-lo já apontando para um SGBD voltado para produção, como o MySQL ou o Postgres, por exemplo.**<br />
 
-Vamos iniciar as configurações no Jenkins acessando a seguinte URL:
-> [http://localhost:8080](http://localhost:8080)
+> **Anote os IPs gerados pelo script e vamos pra cima !**
+
+Vamos iniciar as configurações no Jenkins acessando-o através do IP gerado pelo script:
+> http://IPdoJenkins:8080
 
 Agora, vamos instalar os plugins necessários navegando até:
-> - Gerenciar Jenkins
->  - Gerenciador de Plugins
->  - Clique na aba **Disponíveis**
->  - Instale os seguintes plugins: **SonarQube Plugin** e **Git plugin**
+> * Gerenciar Jenkins
+>  * Gerenciar Plugins
+>  * Clique na aba **Disponíveis**
+>  * Instale o plugin: **SonarQube Plugin**
+>  * Instale o plugin: **Git plugin** (Requer reinicialização do Jenkins)
 
 Após as instalações, é necessário configurarmos os plugins do Sonar em:
 
-> - Gerenciar Jenkins
->  - SonarQube Runner
->  - SonarQube
+> * Gerenciar Jenkins
+> * Configurar o sistema
+> * SonarQube Runner
+> * SonarQube
 
 **Preencher os dados conforme as figuras abaixo:**
 
