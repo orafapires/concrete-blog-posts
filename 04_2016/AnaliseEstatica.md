@@ -152,8 +152,8 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 
 **Preencher os dados conforme as figuras abaixo:**
 
-<img align="left" src="sonarrunner.png">
-<img align="left" src="sonarexample.png">
+<img align="center" src="sonarrunner.png">
+<img align="center" src="sonarexample.png">
 
 > **Os dados de acesso ao Sonar são os dados default do sistema:**<br />
 > Usuário: **admin**<br />
