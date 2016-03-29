@@ -190,8 +190,6 @@ O Jenkins disponibiliza a URL de acesso aos relatórios no próprio Job, conform
 
 <img align="center" src="sonarlink.png">
 <br />
-<br />
-<br />
 
 Partiu Sonar ?
 
