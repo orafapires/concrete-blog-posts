@@ -103,13 +103,15 @@ Agora, vamos instalar os plugins necessários navegando até:
 >  - Clique na aba **Disponíveis**
 >  - Instale os seguintes plugins: **SonarQube Plugin** e **Git plugin**
 
-Antes de iniciarmos, é necessário configurar os plugins do Sonar:
+Antes de iniciarmos, é necessário configurar os plugins do Sonar em:
 
 > - Gerenciar Jenkins
-> - Preencher conforme imagem abaixo
+> - SonarQube Runner
+
+**Preencher os dados conforme figura abaixo**
 
 <img align="left" src="sonarrunner.png">
-
+<br />
 
 Com os plugins instalados e configurados, podemos criar o nosso job de exemplo.
 Vamos nomeá-lo de **"SonarExemplo"**
