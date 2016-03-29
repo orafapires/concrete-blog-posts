@@ -151,6 +151,11 @@ Após as instalações, é necessário configurarmos os plugins do Sonar em:
 <br />
 <br />
 
+Os dados de acesso ao Sonar são os dados default do sistema:
+
+> Usuário: **admin**
+> Senha: **admin**
+
 Com os plugins instalados e configurados, podemos criar o nosso Job de exemplo.<br />
 Vamos nomeá-lo de **"SonarExemplo"**.<br />
 Em **Gerenciamento de código fonte**, insira o seguinte repositório:
@@ -194,6 +199,8 @@ O Jenkins disponibiliza a URL de acesso aos relatórios no próprio Job, conform
 <br />
 <br />
 
+
+
 Partiu Sonar ?
 
 <img align="left" src="sonarresults.png">
@@ -201,6 +208,10 @@ Partiu Sonar ?
 <br />
 <br />
 <br />
+
+
+
+
 
 Em um próximo post, vamos abordar as métricas do sistema e adequar à realidade do seu projeto !<br />
 Até a próxima.
