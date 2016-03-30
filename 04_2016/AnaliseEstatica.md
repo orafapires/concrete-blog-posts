@@ -28,19 +28,12 @@ Agora chega de teoria, vamos à pratica !<br />
 Falando sobre o Sonar, o sistema avalia mais de 20 linguagens, baseando-se em métricas pré-configuradas ou personalizadas (criadas) para o seu projeto.
 Com essas métricas, a Integração Contínua pode ou não promover um artefato em um ambiente de desenvolvimento, testes ou produção.
 
-Vamos partir da idéia de que você já está com o Docker instalado... Primeiro, vamos realizar o download do script para provisionar o nosso ambiente local:
-
-```curl
-curl https://raw.githubusercontent.com/orafapires/concrete-blog-posts/master/04_2016/ScriptAnaliseEstatica.sh > /tmp/ScriptAnaliseEstatica.sh
-```
-
-**O script estará disponível em /tmp**
-
-Vamos executá-lo ?
+Vamos partir da idéia de que você já está com o Docker instalado... Agora, vamos realizar o download e executar o script para provisionar o nosso ambiente local:
 
 ```bash
+curl https://raw.githubusercontent.com/orafapires/concrete-blog-posts/master/04_2016/ScriptAnaliseEstatica.sh > /tmp/ScriptAnaliseEstatica.sh
 cd /tmp
-chmod a+x /tmp/ScriptAnaliseEstatica.sh
+chmod a+x ScriptAnaliseEstatica.sh
 ./ScriptAnaliseEstatica.sh
 ```
 
