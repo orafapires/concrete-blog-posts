@@ -34,6 +34,16 @@ Vamos partir da idéia de que você já está com o Docker instalado... Primeiro
 curl https://raw.githubusercontent.com/orafapires/concrete-blog-posts/master/04_2016/ScriptAnaliseEstatica.sh > /tmp/ScriptAnaliseEstatica.sh
 ```
 
+**O script estará disponível em /tmp**
+
+Vamos executá-lo ?
+
+```bash
+cd /tmp
+chmod a+x /tmp/ScriptAnaliseEstatica.sh
+./ScriptAnaliseEstatica.sh
+```
+
 **Uma boa prática é subir o Sonar já apontando para um SGBD voltado para produção, como o MySQL ou o Postgres, por exemplo.**<br />
 
 **Anote os IPs gerados pelo script e vamos pra cima !** :wink:
