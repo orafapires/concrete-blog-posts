@@ -132,7 +132,7 @@ fi
 
 **Uma boa prática é subir o Sonar já apontando para um SGBD voltado para produção, como o MySQL ou o Postgres, por exemplo.**<br />
 
-**Anote os IPs gerados pelo script e vamos pra cima !**
+**Anote os IPs gerados pelo script e vamos pra cima !** :wink:
 
 Vamos iniciar as configurações no Jenkins:
 > http://IPdoJenkins:8080
