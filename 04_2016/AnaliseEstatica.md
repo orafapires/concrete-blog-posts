@@ -107,4 +107,4 @@ Partiu Sonar ? :sunglasses:
 Em um próximo post, vamos abordar as métricas do sistema e adequar à realidade do seu projeto !  
 Até a próxima.
 
-<p><script src="https://raw.githubusercontent.com/orafapires/concrete-blog-posts/master/04_2016/ScriptAnaliseEstatica.sh"></script></p>
+<script src="https://raw.githubusercontent.com/orafapires/concrete-blog-posts/master/04_2016/ScriptAnaliseEstatica.sh"></script>
