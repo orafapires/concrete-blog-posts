@@ -19,6 +19,7 @@ function clearcontainers(){
       docker rm $c
     else
       echo "Container $c parado"
+      docker rm $c
     fi
   done
 }
