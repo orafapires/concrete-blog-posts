@@ -13,7 +13,11 @@ Ao mesmo tempo, trabalhar apenas na adoção não significa que você terá 100%
 <br />
 
 Permeando essa estrutura temos metodologias ágeis que nos apoiam significativamente. Vamos utilizar o Scrum como exemplo. O Scrum possui alguns princípios que são 100% aderentes a cultura. Estamos falando de uma combinação estratégica e que vai principalmente, focar no valor esperado. Mas e esse valor... ele é igual para todos? Com certeza não.
-A percepção de valor em seus resultados deve ser revista de acordo com a evolução da adoção da cultura. O que eu quero dizer é que nem sempre essa percepção estará presente em todas ás áreas e aí entra um fator fundamental: A comunicação.
+A percepção de valor em seus resultados deve ser revista de acordo com a evolução da adoção da cultura. O que eu quero dizer é que nem sempre essa percepção estará presente em todas ás áreas e aí entra um fator fundamental: A comunicação.<br />
+
+<img align="center" src="Business-communication-2-600x400.jpg">
+<br />
+
 Os objetivos da organização devem estar sempre alinhados com os interessados e a comunicação, sendo de forma efetiva e diária, se torna fundamental nesse processo.<br />
 Ao mesmo tempo, os resultados devem ser medidos e métricas devem ser criadas para dar a visibilidade da produtividade do time.<br />
 Outro ponto fundamental é a colaboração. Ser colaborativo significa compartilhar o esforço do time de forma que todos possam aprender juntos e posteriormente, unificar os resultados.<br />
