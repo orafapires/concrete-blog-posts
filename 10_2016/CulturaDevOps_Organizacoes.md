@@ -3,7 +3,7 @@
 A cultura promove uma mudança de paradigma, uma mudança de abordagem, uma mudança de conceito, uma mudança de... Percebeu? A mudança está presente em todo o contexto e é um agente fundamental na iniciativa de proporcionar entregas ágeis de software e com qualidade até o usuário final. No post [(2+2) Como os princípios DevOps me ajudam na criação de um Produto Digital ?](http://blog.concretesolutions.com.br/2016/05/devops-produto-digital/) você vai encontrar muito mais detalhes sobre esse assunto.<br />
 Nos dias atuais, grandes corporações têm adotado a cultura e usufruído dos inúmeros beneficios. Por sua vez, esses benefícios propiciam uma visão sobretudo ampla aos interessados de que novas funcionalidades em produção em muito menos tempo podem gerar um ganho monetário significativo. Para grandes corporações, isso se torna extremamente estratégico.<br />
 
-<img align="left" src="change-ahead-website-1024x484.jpg">
+<img align="center" src="change-ahead-website-1024x484.jpg">
 <br />
 <br />
 <br />
