@@ -5,12 +5,6 @@ Nos dias atuais, grandes corporações têm adotado a cultura e usufruído dos i
 
 <img align="center" src="change-ahead-website-1024x484.jpg">
 <br />
-<br />
-<br />
-<br />
-<br />
-<br />
-<br />
 
 O fato é que todas essas mudanças não acontecem do dia para a noite. É preciso ter paciência, trabalhar com atitude na adoção, sempre de forma pró ativa e comemorar as pequenas vitórias no dia a dia. Cada passo a frente na adoção deve ser entendido rapidamente pois cada decisão é tomada em paralelo ao descobrimento das dificuldades que a organização apresenta. Essas dificuldades são vencidas disseminando novas perspectivas, conhecimentos, ou seja, outros pontos de vista que podem refletir positivamente na organização.<br />
 Ao mesmo tempo, trabalhar apenas na adoção não significa que você terá 100% de sucesso. Existem barreiras entre as áreas que não estão explícitas para a organização e esse fator pode comprometer todo o seu trabalho.<br />
