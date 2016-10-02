@@ -11,7 +11,7 @@ Ao mesmo tempo, trabalhar apenas na adoção não significa que você terá 100%
 
 Permeando essa estrutura temos metodologias ágeis que nos apoiam significativamente. Vamos utilizar o Scrum como exemplo. O Scrum possui alguns princípios que são 100% aderentes a cultura. Estamos falando de uma combinação estratégica e que vai principalmente, focar no valor esperado. Mas e esse valor... ele é igual para todos? Com certeza não.
 
-<img align="left" src="content_scrum.png">
+<img align="center" src="content_scrum.png">
 
 A percepção de valor em seus resultados deve ser revista de acordo com a evolução da adoção da cultura. O que eu quero dizer é que nem sempre essa percepção estará presente em todas ás áreas e aí entra um fator fundamental: A comunicação.
 Os objetivos da organização devem estar sempre alinhados com os interessados e a comunicação, sendo de forma efetiva e diária, se torna fundamental nesse processo.<br />
