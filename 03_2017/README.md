@@ -10,7 +10,7 @@ Vamos conhecê-las?
 Este talvez seja o fluxo mais utilizado no desenvolvimento colaborativo de software, com um repositório centralizado para todo o time de desenvolvimento.
 
 <p align="center">
-![alt](18333fig0501-tn.png)
+<img src="18333fig0501-tn.png">
 </p>
 
 **Fluxo de Trabalho do Gerente de Integração**
