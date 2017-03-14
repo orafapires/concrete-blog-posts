@@ -16,11 +16,11 @@ Este talvez seja o fluxo mais utilizado no desenvolvimento colaborativo de softw
 **Fluxo de Trabalho do Gerente de Integração**
 
 <p align="center">
-![alt](18333fig0502-tn.png)
+<img src="18333fig0502-tn.png">
 </p>
 
 **Fluxo de Trabalho de Ditador e Tenentes**
 
 <p align="center">
-![alt](18333fig0503-tn.png)
+<img src="18333fig0503-tn.png">
 </p>
