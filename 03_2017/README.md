@@ -20,10 +20,8 @@ Este fluxo promove a colaboração de todo o time de desenvolvimento de uma dete
 
 Em times pequenos, combinado há um fluxo de organização orientado a funcionalidades, permite uma rápida integração de código.<br>
 
-> Gitflow
-
 <p align="center">
-<img src="git-model@2x.png">
+<img src="git-branch-management-6-638.jpg">
 </p>
 
 ---
