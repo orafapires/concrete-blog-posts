@@ -58,11 +58,11 @@ Feito isso, o ditador da push das suas alterações para o repositório oficial,
 
 ### Onde aplicá-lo? :hammer:
 
-Em estruturas com multiplos times, que refletem as funcionalidades de um respectivo software, delegando a integração de código aos tenentes e aos ditadores.<br>
+Em estruturas com multiplos times que refletem as funcionalidades de um respectivo software, delegando a integração de código aos tenentes e aos ditadores.<br>
 
 ---
 
-Todos os fluxos refletem à complexidade de desenvolvimento de um software e podem ser escalados, proporcionando qualidade e agilidade na entrega de novas funcionalidades.
+Todos os fluxos estão voltados à complexidade de desenvolvimento de um software, podendo ser escalados, proporcionando qualidade e agilidade na entrega de novas funcionalidades.
 
 A documentação do Git é uma ótima referência para o aprofundamento do conhecimento sobre os fluxos e muita rica em detalhes.<br>
 [Distributed Git - Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
