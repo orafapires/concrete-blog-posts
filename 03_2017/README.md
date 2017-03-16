@@ -13,7 +13,7 @@ Este fluxo promove a colaboração de todo o time de desenvolvimento de uma dete
 ---
 
 <p align="center">
-<img src="18333fig0501-tn.png">
+<img src="centralized_workflow.png">
 </p>
 
 ### Onde aplicá-lo? :hammer:
@@ -34,12 +34,12 @@ Para a posterior integração dessas alterações, o mantenedor adiciona essa c�
 ---
 
 <p align="center">
-<img src="18333fig0502-tn.png">
+<img src="integration-manager.png">
 </p>
 
 ### Onde aplicá-lo? :hammer:
 
-
+Em times mais maduros, que utilizam Pull Request, Code Review
 
 ---
 
@@ -53,7 +53,7 @@ Feito isso, o ditador da push das suas alterações para o repositório oficial,
 ---
 
 <p align="center">
-<img src="18333fig0503-tn.png">
+<img src="benevolent-dictator.png">
 </p>
 
 ---
