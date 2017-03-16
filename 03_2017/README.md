@@ -1,4 +1,4 @@
-# Desenvolvimento distribuído e onde aplicá-lo
+# Desenvolvimento distribuído com Git e onde aplicá-lo
 
 Você já ouviu falar sobre desenvolvimento distribuído?
 
@@ -39,7 +39,7 @@ Para a posterior integração dessas alterações, o mantenedor adiciona essa c�
 
 ### Onde aplicá-lo? :hammer:
 
-Em times mais maduros, que utilizam Pull Request, Code Review
+Em times mais maduros, desenvolvendo softwares distribuidos e aumentando a qualidade de código através de Pull Requests e Code Review.
 
 ---
 
@@ -56,4 +56,18 @@ Feito isso, o ditador da push das suas alterações para o repositório oficial,
 <img src="benevolent-dictator.png">
 </p>
 
+### Onde aplicá-lo? :hammer:
+
+Em estruturas com multiplos times, que refletem as funcionalidades de um respectivo software, delegando a integração de código aos tenentes e aos ditadores.<br>
+
 ---
+
+Todos os fluxos refletem à complexidade de desenvolvimento de um software e podem ser escalados, proporcionando qualidade e agilidade na entrega de novas funcionalidades.
+
+A documentação do Git é uma ótima referência para o aprofundamento do conhecimento sobre os fluxos e muita rica em detalhes.<br>
+[Distributed Git - Distributed Workflows](https://git-scm.com/book/en/v2/Distributed-Git-Distributed-Workflows)
+
+Ficou alguma dúvida ou tem alguma sugestão?<br>
+Aproveite os campos abaixo!<br>
+
+Até a próxima.
