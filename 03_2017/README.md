@@ -60,6 +60,12 @@ Feito isso, o ditador da push das suas alterações para o repositório oficial,
 
 Em estruturas com multiplos times que refletem as funcionalidades de um respectivo software, delegando a integração de código aos tenentes e aos ditadores.<br>
 
+> Exemplo:
+
+<p align="center">
+<img src="Gitflow.png">
+</p>
+
 ---
 
 Todos os fluxos estão voltados à complexidade de desenvolvimento de um software, podendo ser escalados, proporcionando qualidade e agilidade na entrega de novas funcionalidades.
